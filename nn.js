@@ -1,1 +1,4 @@
-console.log("Hello")
+let sum =(a,b)=>{
+    console.log(a+b)
+}
+sum(4,3)

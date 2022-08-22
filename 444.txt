@@ -1,0 +1,54 @@
+SOLUTION 1-
+
+YAVTECH
+
+3
+
+Reason - First memory is allocated to the a and function and then value is passed
+
+
+
+SOLUTION 2 -
+
+YAVTECH 
+
+undefined 
+
+Reason - Because memory is allocated with value undefined but value is not passed at line due to not access of code pahas
+
+
+
+SOLUTION 3-
+
+Error - printname is not a function it is variable
+
+undefined
+
+
+
+SOLUTON 4-
+
+undefined
+
+undefined
+
+Reason - Memory allocated but code phase is still not done
+
+
+
+SOULUTION 5-
+
+undefined 
+
+Error - not defined
+
+ Reason - there is no memory allocation to a
+
+
+
+
+
+
+
+
+

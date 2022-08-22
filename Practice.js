@@ -1,0 +1,45 @@
+let itemlist=document.getElementById("list")
+let para=document.getElementById("para")
+let form=document.getElementById("form")
+let head=document.getElementById('h1')
+let title = document.getElementById('title')
+let li =document.getElementById('li')
+let email = document.getElementById("email")
+let phn=document.getElementById('phn')
+let sub = document.getElementById("submit")
+let newpar = document.getElementById('paranew')
+console.log(itemlist)
+console.log(itemlist.children)
+console.log(para)
+console.log(para.children)
+console.log(form)
+console.log(head.children)
+console.log(itemlist.firstElementChild)
+console.log(head.parentElement)
+console.log(title.parentElement)
+console.log(li.parentElement)
+// Create new element
+let ele = document.createElement('input')
+console.log(ele)
+ele.setAttribute("type","submit")
+ele.setAttribute("value"," SUBMIT ")
+ele.setAttribute("style","float:right")
+console.log(ele)
+li.appendChild(ele)
+let newelement=document.createElement("li")
+console.log(newelement)
+let val = document.createTextNode("Guava")
+newelement.appendChild(val)
+console.log(newelement)
+itemlist.insertBefore(newelement,li)
+itemlist.appendChild(newelement)
+form.removeChild(email)
+form.style.backgroundColor="Grey"
+form.style.color="Green"
+phn.innerText="Emai  lid"
+newpar.addEventListener("mouseover",show)
+function show()
+{
+    newpar.style.color="blue"
+}
+
